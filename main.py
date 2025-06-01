@@ -36,7 +36,7 @@ client = init_genai_client()
 st.markdown("""
 <div style="text-align: center">
     <h1> Persona AI Chatbot</h1>
-    <p style="text-align: end"> ~ By Kaustuv Chatterjee</p>
+    <p style="text-align: end"> ~ Arpit Mohankar</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -58,7 +58,7 @@ HIII Mai hoon Shellllly the superstaaarr💃🏻.  Youu can telll me anything .S
                 st.markdown(":grey[**User**]", unsafe_allow_html=True)
                 st.markdown(message["content"])
         else:
-            with st.chat_message("assistant", avatar=Image.open("assets/hiteshchoudhary.jpg")):
+            with st.chat_message("assistant", avatar=Image.open("assets/Hiteshchoudhary.jpg")):
                 st.markdown(":grey[**Shelly Jha**]", unsafe_allow_html=True)
                 st.markdown(message["content"])
 

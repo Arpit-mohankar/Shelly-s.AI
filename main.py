@@ -376,7 +376,7 @@ if prompt := st.chat_input("Puchiye jo puchna hai"):
                 if st.session_state.messages:
                     latest_message = st.session_state.messages[-1]
                     latest_content = latest_message["content"]
-                    with st.chat_message("assistant", avatar=Image.open("assets/hiteshchoudhary.jpg")):
+                    with st.chat_message("assistant", avatar=Image.open("assets/Hiteshchoudhary.jpg")):
                         st.markdown(":grey[**Shelly Jha**]", unsafe_allow_html=True)
                         st.markdown(f'<div class="user-message">{latest_content}</div>', unsafe_allow_html=True)
             except Exception as e:
